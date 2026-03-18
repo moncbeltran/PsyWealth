@@ -162,7 +162,7 @@ export default function Finances({ store, setStore }) {
         </button>
       </div>
 
-      <MovementList finances={store.finances} setStore={setStore} />
+      <MovementList finances={store.finances} />
     </div>
   )
 }
